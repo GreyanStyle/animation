@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	background: #313131;
+}
+
+.hello{
+	width: 800px;
+	height: 400px;
+	background: url(img/blog1.jpg) no-repeat;
+	margin: 100px auto;
+	animation: hello 30s infinite;
+}
+
+@keyframes hello {
+	25%{
+		background: url(img/blog2.jpg) no-repeat;
+	}
+
+	50%{
+		background: url(img/blog3.jpg) no-repeat;
+	}
+
+	75%{
+		background: url(img/blog4.jpg) no-repeat;
+	}
+
+	100%{
+		background: url(img/blog5.jpg) no-repeat;
+	}
+}
